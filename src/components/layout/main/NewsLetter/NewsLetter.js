@@ -4,7 +4,6 @@ const NewsLetter = props => {
   return (
     <div
       data-vc-full-width="true"
-      data-vc-full-width-init="true"
       className="vc_row wpb_row vc_row-fluid vc_custom_1484181139705 vc_row-has-fill"
     >
       <div className="wpb_column vc_column_container vc_col-sm-12">
