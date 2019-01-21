@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import logoSvg from "../../../assets/logo-basel.svg";
+import Cart from "./Cart";
 
 const NavStyle = styled.nav`
   display: flex;
   align-items: center;
   min-height: 100px;
-  border: 1px solid red;
   justify-content: space-evenly;
 
   .nav__parent {
@@ -27,9 +27,15 @@ const NavStyle = styled.nav`
   }
 
   .nav-right {
-    .nav_right_items_01 {
+    .fa {
+      font-size: 55px;
+      color: red;
+      border: 1px solid red;
+    }
+
+    .wishlist {
       &:after {
-        content: "\e08a";
+        content: "testing";
         font-family: Simple-Line-Icons;
       }
     }
@@ -60,16 +66,8 @@ class Navbar extends Component {
         <div className="navbar_logo">
           <img src={logoSvg} alt="logo" />
         </div>
-        <div className="nav_right">
-          <span className="nav_right_items nav_right_items_01">search</span>
-          <span className="nav_right_items nav_right_items_02">
-            <i className="far fa-heart" />
-          </span>
-          <span className="nav_right_items nav_right_items_03">
-            <i class="fas fa-shopping-cart" />
-          </span>
-        </div>
-        <div />
+        Right Side
+        <Cart />
       </NavStyle>
     );
   }
