@@ -50,7 +50,11 @@ class Navbar extends Component {
           <NavLink to="/home" activeStyle={{ color: "#00AAA3" }}>
             HOME
           </NavLink>
-          <NavLink to="/shop" activeStyle={{ color: "#00AAA3" }}>
+          <NavLink
+            to="/shop"
+            className="shop"
+            activeStyle={{ color: "#00AAA3" }}
+          >
             SHOP
           </NavLink>
           <NavLink to="/blog" activeStyle={{ color: "#00AAA3" }}>
