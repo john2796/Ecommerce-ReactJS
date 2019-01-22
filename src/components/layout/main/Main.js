@@ -2,21 +2,14 @@ import React, { Component } from "react";
 import Carousel from "./carousel/Carousel";
 import { Route } from "react-router-dom";
 
-import NewsLetter from "./NewsLetter/NewsLetter";
-import FeaturedSection from "./FeaturedSection/FeaturedSection";
-import FeaturedCategories from "./FeaturedCategories/FeaturedCategories";
-import About from "./About/About";
-import SingleProduct from "./singleProduct/SingleProduct";
+import MainPageContainer from "./MainPageContainer/MainPageContainer";
+import SinglePageContainer from "./SinglePageContainer/SinglePageContainer";
 class Main extends Component {
   render() {
     return (
       <div>
-        <Carousel />
-        <FeaturedCategories />
-        <FeaturedSection />
-        <NewsLetter />
-        <About />
-        <Route exact to="/singleproduct" component={SingleProduct} />
+        <MainPageContainer />
+        <SinglePageContainer />
       </div>
     );
   }
