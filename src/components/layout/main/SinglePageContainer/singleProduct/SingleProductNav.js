@@ -1,22 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SingleProductNav = () => {
   return (
     <div className="container">
-      <a href="/test" className="basel-back-btn basel-tooltip">
+      <Link to="/" className="basel-back-btn basel-tooltip">
         <span className="basel-tooltip-label">Back</span>
         <span>Back</span>
-      </a>
+      </Link>
       <nav className="woocommerce-breadcrumb">
-        <a href="https://demo.xtemos.com/basel">Home</a>
-        <a href="https://demo.xtemos.com/basel/shop/">Shop</a>
-        <a href="https://demo.xtemos.com/basel/product-category/bags/">Bags</a>
+        <Link to="/">Home</Link>
+        <Link to="/shop">Shop</Link>
+        <Link to="/bags">Bags</Link>
         <span className="breadcrumb-last"> Backpack double strap</span>
       </nav>
       <div className="basel-products-nav">
         <div className="product-btn product-prev">
           <a href="https://demo.xtemos.com/basel/shop/bags/lintage-cinch-backpack/">
-            Previous product<span />
+            Previous product
+            <span />
           </a>
           <div className="wrapper-short">
             <div className="product-short">
@@ -53,7 +55,8 @@ const SingleProductNav = () => {
         <div className="product-btn product-next">
           {" "}
           <a href="https://demo.xtemos.com/basel/shop/shoes/ehearling-lined-boot-men/">
-            Next product<span />
+            Next product
+            <span />
           </a>
           <div className="wrapper-short">
             <div className="product-short">

@@ -10,7 +10,7 @@ class Navbar extends Component {
     return (
       <div className="nav-style">
         <div className="nav-style__parent">
-          <NavLink to="/home" activeStyle={{ color: "#00AAA3" }}>
+          <NavLink to="/" activeStyle={{ color: "#00AAA3" }}>
             HOME
           </NavLink>
           <NavLink

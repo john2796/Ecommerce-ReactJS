@@ -159,11 +159,3 @@ const FeaturedProduct = props => {
 };
 
 export default FeaturedProduct;
-
-// <div class="swatches-on-grid">
-//   <div class="swatch-on-grid basel-tooltip swatch-has-image swatch-size-" style="background-color:#0a0a0a;" data-image-src="https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21.jpg" data-image-srcset="https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21.jpg 870w, https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21-235x300.jpg 235w, https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21-768x980.jpg 768w, https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21-803x1024.jpg 803w, https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21-266x340.jpg 266w, https://xtemos3.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21-219x280.jpg 219w, https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21-263x336.jpg 263w, https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-21-526x671.jpg 526w" data-image-sizes="(max-width: 870px) 100vw, 870px" />
-//     <span class="basel-tooltip-label">Black</span>Black</div>
-//     <div class="swatch-on-grid basel-tooltip swatch-has-image swatch-size-" style="background-color:#769ec1;" data-image-src="https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22.jpg" data-image-srcset="https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22.jpg 870w, https://xtemos3.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22-235x300.jpg 235w, https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22-768x980.jpg 768w, https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22-803x1024.jpg 803w, https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22-266x340.jpg 266w, https://xtemos1.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22-219x280.jpg 219w, https://x0temos3.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22-263x336.jpg 263w, https://xtemos2.r.worldssl.net/basel/wp-content/uploads/2015/10/bag-22-526x671.jpg 526w" data-image-sizes="(max-width: 870px) 100vw, 870px" />
-//     <span class="basel-tooltip-label">Blue</span>Blue</div>
-//   </div>
-// </div>
