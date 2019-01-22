@@ -5,6 +5,7 @@ import FeaturedSection from "./FeaturedSection/FeaturedSection";
 import NewsLetter from "./NewsLetter/NewsLetter";
 import About from "./About/About";
 import LatestNews from "./LatestNews/LatestNews";
+import TestimonialsGalerry from "./TestimonialGallery/TestimonialsGalerry";
 
 const MainPageContainer = () => {
   return (
@@ -15,6 +16,7 @@ const MainPageContainer = () => {
       <NewsLetter />
       <LatestNews />
       <About />
+      <TestimonialsGalerry />
     </div>
   );
 };
