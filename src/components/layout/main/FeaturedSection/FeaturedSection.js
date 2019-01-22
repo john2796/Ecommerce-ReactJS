@@ -14,16 +14,15 @@ const FeaturedSection = props => {
           </span>
         </h4>{" "}
         <span className="right-line" />
+        <FeaturedProduct />
+        <FeaturedProduct />
+        <FeaturedProduct />
+        <FeaturedProduct />
+        <FeaturedProduct />
+        <FeaturedProduct />
+        <FeaturedProduct />
+        <FeaturedProduct />
       </div>
-
-      <FeaturedProduct />
-      <FeaturedProduct />
-      <FeaturedProduct />
-      <FeaturedProduct />
-      <FeaturedProduct />
-      <FeaturedProduct />
-      <FeaturedProduct />
-      <FeaturedProduct />
     </div>
   );
 };
